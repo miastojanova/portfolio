@@ -12,9 +12,14 @@ return (
             <img src={sparkle} alt=""/>
         </div>
         <div className="mywork-container">
-            {mywork_data.map((work, index) => {
-                return <img src={work.w_img} key={index} alt=""/>
-            })}
+            {
+            mywork_data.length > 0 ?(
+            mywork_data.map((work, index) => (
+                <img src={work.w_img} key={index} alt=""/>
+            ))
+        ) : (
+            <h3 className='if-text'>Yet to come ⍨</h3>
+        )}
         </div>
         <div className="mywork-showmore">
             <p>Show more     </p><p>🡪</p>

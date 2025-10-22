@@ -87,4 +87,23 @@
         top: 10px;
         right: -30px;
     }
+    .services-format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .services-format h1{
+        font-size: 28px;
+    }
+    .services-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+    .service-readmore p{
+        font-size: 16px;
+    }
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
 }

@@ -111,3 +111,50 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media (max-width:768px) {
+    .contact{
+        gap: 50px;
+        margin: 50px;
+        align-items: start;
+    }
+    .contact-title h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .contact-title img{
+        height: 30px;
+        top: 10px;
+        right: -30px;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 54px;
+    }
+    .contact-left p{
+        font-size: 18px;
+    }
+    .contact-detail{
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 25px;
+    }
+    .contact-right label{
+        font-size: 20px;
+    }
+    .contact-right input{
+        width: 100%;
+        font-size: 20px;
+    }
+    .contact-right textarea{
+        width: 95%;
+        font-size: 20px;
+    }
+    .contact-right button{
+        font-size: 20px;
+        padding: 15px 40px;
+    }
+}
